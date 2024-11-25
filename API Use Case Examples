@@ -1,6 +1,7 @@
 AMP APIs: Use Case & Example
 
 Once you're authenticated, you can now use the API to get information from Cisco AMP for Endpoints. Here are some examples:
+(*Note that it is recommended to use software like Postman for testing and interacting with APIs)
 
 Query for detailed endpoint (computer) information:
 
