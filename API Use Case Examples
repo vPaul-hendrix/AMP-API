@@ -1,0 +1,27 @@
+AMP APIs: Use Case & Example
+
+Once you're authenticated, you can now use the API to get information from Cisco AMP for Endpoints. Here are some examples:
+
+Query for detailed endpoint (computer) information:
+
+API call: GET
+
+URL: https://api.amp.cisco.com/v1/computers
+
+Query for general event information. There will be a limit of 10 results returned (limit=10):
+
+API call: GET
+
+URL: https://api.amp.cisco.com/v1/events?limit=10
+
+Query for only three (limit=3) currently known sections of application information that are blocking a file, starting at the second position (offset=2):
+
+API call: GET
+
+URL: https://api.amp.cisco.com/v1/file_lists/application_blocking?limit=3&offset=2
+
+Query for three of the configured policies (limit), starting at the second position (offset):
+
+API call: GET
+
+URL: https://api.amp.cisco.com/v1/policies?limit=3&offset=2
